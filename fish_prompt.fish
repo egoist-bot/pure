@@ -59,7 +59,8 @@ function fish_prompt
 
   # Do not add a line break to a brand new session
   if test $__pure_fresh_session -eq 0
-    set prompt $prompt "\n"
+    # Always disable line break
+    # set prompt $prompt "\n"
   end
 
   # Check if user is in an SSH session
