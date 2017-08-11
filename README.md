@@ -13,10 +13,10 @@
 Via [cURL](https://curl.haxx.se):
 
 ```sh
-$ # Download the installer to `/tmp`
-$ curl -Ls https://raw.github.com/rafaelrinaldi/pure/master/installer.fish > /tmp/pure_installer.fish
-$ # Source and trigger the installer
-$ source /tmp/pure_installer.fish; and install_pure
+# Download the installer to `/tmp`
+curl -Ls https://raw.github.com/egoist-bot/pure/master/installer.fish > /tmp/pure_installer.fish
+# Source and trigger the installer
+source /tmp/pure_installer.fish; and install_pure
 ```
 
 ### [Fisherman](http://fisherman.sh)
